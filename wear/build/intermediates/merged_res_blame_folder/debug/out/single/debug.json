@@ -1,7 +1,27 @@
 [
     {
+        "merged": "com.deezerwatch.app.wear-merged_res-13:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.deezerwatch.app.wear-main-15:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.deezerwatch.app.wear-merged_res-13:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.deezerwatch.app.wear-main-15:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.deezerwatch.app.wear-merged_res-13:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.deezerwatch.app.wear-main-15:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.deezerwatch.app.wear-merged_res-13:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.deezerwatch.app.wear-main-15:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
         "merged": "com.deezerwatch.app.wear-merged_res-13:/drawable-nodpi_ic_prev.png.flat",
         "source": "com.deezerwatch.app.wear-main-15:/drawable-nodpi/ic_prev.png"
+    },
+    {
+        "merged": "com.deezerwatch.app.wear-merged_res-13:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.deezerwatch.app.wear-main-15:/mipmap-hdpi/ic_launcher.png"
     },
     {
         "merged": "com.deezerwatch.app.wear-merged_res-13:/drawable-nodpi_ic_next.png.flat",

@@ -4,4 +4,5 @@ drawable ic_next
 drawable ic_pause
 drawable ic_play
 drawable ic_prev
+mipmap ic_launcher
 string app_name

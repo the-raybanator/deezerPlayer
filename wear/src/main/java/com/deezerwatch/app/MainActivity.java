@@ -16,6 +16,7 @@ import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -70,6 +71,7 @@ public class MainActivity extends Activity
     private WearableRecyclerView list;
     private ListAdapter adapter;
     private TextView message;
+    private ScrollView playerScroll;
     private LinearLayout player;
     private TextView playerTitle, playerArtist;
     private ImageButton toggleBtn;
@@ -96,12 +98,19 @@ public class MainActivity extends Activity
         message.setPadding(inset, inset, inset, inset);
         root.addView(message, new FrameLayout.LayoutParams(-1, -1));
 
+        // Scrollable so a long title can't squash the buttons; fillViewport keeps short
+        // content vertically centred.
+        playerScroll = new ScrollView(this);
+        playerScroll.setBackgroundColor(Color.BLACK);
+        playerScroll.setFillViewport(true);
+        playerScroll.setVerticalScrollBarEnabled(false);
+        playerScroll.setVisibility(View.GONE);
+
         player = new LinearLayout(this);
         player.setOrientation(LinearLayout.VERTICAL);
         player.setGravity(Gravity.CENTER);
-        player.setBackgroundColor(Color.BLACK);
         player.setPadding(inset, inset, inset, inset);
-        player.setVisibility(View.GONE);
+        playerScroll.addView(player, new ScrollView.LayoutParams(-1, ViewGroup.LayoutParams.WRAP_CONTENT));
 
         playerTitle = new TextView(this);
         playerTitle.setTextColor(Color.WHITE);
@@ -140,11 +149,11 @@ public class MainActivity extends Activity
         player.addView(controls, new LinearLayout.LayoutParams(-2, -2));
 
         // Swipe-right closes the whole app on Wear OS, so give an explicit way back to the list.
-        Button menu = pillButton("Playlists", 0xFFCD595A, v -> player.setVisibility(View.GONE));
+        Button menu = pillButton("Playlists", 0xFFCD595A, v -> hidePlayer());
         LinearLayout.LayoutParams menuLp = new LinearLayout.LayoutParams(-2, -2);
         menuLp.gravity = Gravity.CENTER_HORIZONTAL;
         player.addView(menu, menuLp);
-        root.addView(player, new FrameLayout.LayoutParams(-1, -1));
+        root.addView(playerScroll, new FrameLayout.LayoutParams(-1, -1));
 
         setContentView(root);
         render();
@@ -172,8 +181,8 @@ public class MainActivity extends Activity
     @Override
     @SuppressWarnings("deprecation")
     public void onBackPressed() {
-        if (player.getVisibility() == View.VISIBLE) {
-            player.setVisibility(View.GONE);
+        if (playerScroll.getVisibility() == View.VISIBLE) {
+            hidePlayer();
         } else {
             super.onBackPressed();
         }
@@ -253,7 +262,18 @@ public class MainActivity extends Activity
 
     private void play(Playlist p) {
         send(Protocol.PATH_PLAY_PLAYLIST, p.id + "\n" + p.title);
-        player.setVisibility(View.VISIBLE);
+        showPlayer();
+    }
+
+    private void showPlayer() {
+        playerScroll.setVisibility(View.VISIBLE);
+        playerScroll.scrollTo(0, 0);
+        playerScroll.requestFocus(); // lets the rotary bezel scroll it
+    }
+
+    private void hidePlayer() {
+        playerScroll.setVisibility(View.GONE);
+        list.requestFocus();
     }
 
     // ---- UI ---------------------------------------------------------------------------
@@ -307,7 +327,7 @@ public class MainActivity extends Activity
         public void onBindViewHolder(@NonNull Row h, int position) {
             if (position < offset()) {
                 h.text.setText((playing ? "Now playing: " : "Paused: ") + title);
-                h.text.setOnClickListener(v -> player.setVisibility(View.VISIBLE));
+                h.text.setOnClickListener(v -> showPlayer());
             } else {
                 Playlist p = playlists.get(position - offset());
                 h.text.setText(p.title + "\n" + p.tracks + " tracks");

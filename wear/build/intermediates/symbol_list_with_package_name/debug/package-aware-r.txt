@@ -404,6 +404,7 @@ layout ws_single_page_nav_drawer_7_item
 layout ws_single_page_nav_drawer_peek_view
 layout ws_single_page_nav_drawer_text
 layout ws_wearable_drawer_view
+mipmap ic_launcher
 string app_name
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
