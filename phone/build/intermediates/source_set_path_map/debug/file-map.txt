@@ -1,0 +1,10 @@
+com.deezerwatch.app.phone-play-services-basement-18.4.0-0 C:\Users\rayyan\.gradle\caches\8.9\transforms\6f15c2643487586b5a8f72fce12d7f91\transformed\play-services-basement-18.4.0\res
+com.deezerwatch.app.phone-core-1.2.0-1 C:\Users\rayyan\.gradle\caches\8.9\transforms\e0f0316386b75097dfdfa0f5b70bffe5\transformed\core-1.2.0\res
+com.deezerwatch.app.phone-play-services-base-18.5.0-2 C:\Users\rayyan\.gradle\caches\8.9\transforms\e8dee4bcdd926c80f2807959d9fc2142\transformed\play-services-base-18.5.0\res
+com.deezerwatch.app.phone-pngs-3 C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\build\generated\res\pngs\debug
+com.deezerwatch.app.phone-resValues-4 C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\build\generated\res\resValues\debug
+com.deezerwatch.app.phone-packageDebugResources-5 C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.deezerwatch.app.phone-packageDebugResources-6 C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.deezerwatch.app.phone-merged_res-7 C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\build\intermediates\merged_res\debug
+com.deezerwatch.app.phone-debug-8 C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\debug\res
+com.deezerwatch.app.phone-main-9 C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\res

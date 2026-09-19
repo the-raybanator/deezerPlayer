@@ -1,0 +1,178 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:2:1-50:12
+MERGED from [com.google.android.gms:play-services-wearable:18.2.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\9671f2a52e187ae6cc4c41b162ff9cba\transformed\play-services-wearable-18.2.0\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\e8dee4bcdd926c80f2807959d9fc2142\transformed\play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\68c71fd8e810b427812a837e7cfe9177\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\6f15c2643487586b5a8f72fce12d7f91\transformed\play-services-basement-18.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\8155448923a21bd3925fa7d6f8ba2c37\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\31eeff86ee0f1798bc9ab093f8c5bcfa\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\9545bf745c9bf84ff453b10c56b64421\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\81e1b8ed6c1bdbbde16096b84bf33d4c\transformed\activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\243db0b8e5726e4f23764bf81c571dcc\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.2.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\e0f0316386b75097dfdfa0f5b70bffe5\transformed\core-1.2.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\c32151d11cd4d8c0dc0c41799c36da0d\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\f45e50c9d2afcf904f0f215353dfd7cc\transformed\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\a333ddba8796decdaf6ed441fd97cf50\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\ba112c8a9b475014fde5be11516556a6\transformed\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\dc5631d3515d9ad64426b5d0fee89ec0\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\489a9465d0176db6911e8848817a7630\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\d2fbcc51686c1cf81989f60398d309f4\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:6:5-78
+	android:name
+		ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:6:22-75
+queries
+ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:8:5-10:15
+package#deezer.android.app
+ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:9:9-54
+	android:name
+		ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:9:18-51
+application
+ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:12:5-49:19
+INJECTED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:12:5-49:19
+MERGED from [com.google.android.gms:play-services-wearable:18.2.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\9671f2a52e187ae6cc4c41b162ff9cba\transformed\play-services-wearable-18.2.0\AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-wearable:18.2.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\9671f2a52e187ae6cc4c41b162ff9cba\transformed\play-services-wearable-18.2.0\AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\e8dee4bcdd926c80f2807959d9fc2142\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\e8dee4bcdd926c80f2807959d9fc2142\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\68c71fd8e810b427812a837e7cfe9177\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\68c71fd8e810b427812a837e7cfe9177\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\6f15c2643487586b5a8f72fce12d7f91\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\6f15c2643487586b5a8f72fce12d7f91\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.core:core:1.2.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\e0f0316386b75097dfdfa0f5b70bffe5\transformed\core-1.2.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.2.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\e0f0316386b75097dfdfa0f5b70bffe5\transformed\core-1.2.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\c32151d11cd4d8c0dc0c41799c36da0d\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\c32151d11cd4d8c0dc0c41799c36da0d\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.2.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\e0f0316386b75097dfdfa0f5b70bffe5\transformed\core-1.2.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:14:9-41
+	android:allowBackup
+		ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:13:9-36
+	android:theme
+		ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:15:9-71
+activity#com.deezerwatch.app.MainActivity
+ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:17:9-24:20
+	android:exported
+		ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:19:13-36
+	android:name
+		ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:18:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:20:13-23:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:22:27-74
+service#com.deezerwatch.app.WatchService
+ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:27:9-37:19
+	android:exported
+		ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:28:13-41
+intent-filter#action:name:com.google.android.gms.wearable.MESSAGE_RECEIVED+data:host:*+data:pathPrefix:/request+data:scheme:wear
+ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:30:13-36:29
+action#com.google.android.gms.wearable.MESSAGE_RECEIVED
+ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:31:17-91
+	android:name
+		ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:31:25-88
+data
+ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:32:17-35:45
+	android:host
+		ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:33:21-37
+	android:scheme
+		ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:35:21-42
+	android:pathPrefix
+		ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:34:21-50
+service#com.deezerwatch.app.MediaWatcher
+ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:40:9-48:19
+	android:label
+		ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:43:13-45
+	android:exported
+		ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:44:13-87
+	android:name
+		ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:41:13-41
+intent-filter#action:name:android.service.notification.NotificationListenerService
+ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:45:13-47:29
+action#android.service.notification.NotificationListenerService
+ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:46:17-99
+	android:name
+		ADDED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml:46:25-96
+uses-sdk
+INJECTED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml
+INJECTED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml
+MERGED from [com.google.android.gms:play-services-wearable:18.2.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\9671f2a52e187ae6cc4c41b162ff9cba\transformed\play-services-wearable-18.2.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-wearable:18.2.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\9671f2a52e187ae6cc4c41b162ff9cba\transformed\play-services-wearable-18.2.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\e8dee4bcdd926c80f2807959d9fc2142\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\e8dee4bcdd926c80f2807959d9fc2142\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\68c71fd8e810b427812a837e7cfe9177\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\68c71fd8e810b427812a837e7cfe9177\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\6f15c2643487586b5a8f72fce12d7f91\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\6f15c2643487586b5a8f72fce12d7f91\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\8155448923a21bd3925fa7d6f8ba2c37\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\8155448923a21bd3925fa7d6f8ba2c37\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\31eeff86ee0f1798bc9ab093f8c5bcfa\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\31eeff86ee0f1798bc9ab093f8c5bcfa\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\9545bf745c9bf84ff453b10c56b64421\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\9545bf745c9bf84ff453b10c56b64421\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\81e1b8ed6c1bdbbde16096b84bf33d4c\transformed\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\81e1b8ed6c1bdbbde16096b84bf33d4c\transformed\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\243db0b8e5726e4f23764bf81c571dcc\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\243db0b8e5726e4f23764bf81c571dcc\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.2.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\e0f0316386b75097dfdfa0f5b70bffe5\transformed\core-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\e0f0316386b75097dfdfa0f5b70bffe5\transformed\core-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\c32151d11cd4d8c0dc0c41799c36da0d\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\c32151d11cd4d8c0dc0c41799c36da0d\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\f45e50c9d2afcf904f0f215353dfd7cc\transformed\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\f45e50c9d2afcf904f0f215353dfd7cc\transformed\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\a333ddba8796decdaf6ed441fd97cf50\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\a333ddba8796decdaf6ed441fd97cf50\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\ba112c8a9b475014fde5be11516556a6\transformed\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\ba112c8a9b475014fde5be11516556a6\transformed\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\dc5631d3515d9ad64426b5d0fee89ec0\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\dc5631d3515d9ad64426b5d0fee89ec0\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\489a9465d0176db6911e8848817a7630\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\489a9465d0176db6911e8848817a7630\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\d2fbcc51686c1cf81989f60398d309f4\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\d2fbcc51686c1cf81989f60398d309f4\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\rayyan\Desktop\My Files\04 Coding\05 Mobile App Dev\deezerPlayer\phone\src\main\AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\e8dee4bcdd926c80f2807959d9fc2142\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\e8dee4bcdd926c80f2807959d9fc2142\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\e8dee4bcdd926c80f2807959d9fc2142\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\e8dee4bcdd926c80f2807959d9fc2142\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\6f15c2643487586b5a8f72fce12d7f91\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\6f15c2643487586b5a8f72fce12d7f91\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\rayyan\.gradle\caches\8.9\transforms\6f15c2643487586b5a8f72fce12d7f91\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65

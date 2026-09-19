@@ -1,0 +1,31 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.deezerwatch.app'
+    compileSdk 36
+    buildToolsVersion '36.0.0'
+
+    defaultConfig {
+        applicationId "com.deezerwatch.app"
+        minSdk 30
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    sourceSets {
+        main.java.srcDirs += '../common/src/main/java'
+    }
+}
+
+dependencies {
+    implementation 'com.google.android.gms:play-services-wearable:18.2.0'
+    implementation 'androidx.wear:wear:1.3.0'
+}
