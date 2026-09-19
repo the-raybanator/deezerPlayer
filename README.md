@@ -1,3 +1,5 @@
+******MADE WITH CLAUDE CODE AI******
+
 # Deezer Watch
 
 A Wear OS remote for the Deezer app on your phone. The watch lists your Deezer playlists and
